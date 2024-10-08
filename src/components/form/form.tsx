@@ -35,34 +35,37 @@ export function ContactForm() {
         console.log('Ошибка отправки сообщения в телеграмм');
       }
     } catch (error) {
-        console.log(`Ошибка: ${error}`)
+      console.log(`Ошибка: ${error}`)
     }
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      <div>
-        <label>Your Name:</label>
-        <input
-          type="text"
-          name="username"
-          value={userInput.username}
-          onChange={handleChange}
-          required
-        />
-      </div>
-      <div>
-        <label>Your Phone:</label>
-        <input
-          type="text"
-          name="phone"
-          value={userInput.phone}
-          onChange={handleChange}
-          required
-        />
-      </div>
-      <button type="submit">Send Message</button>
-    </form>
+    <div className='flex bg-red-400 border-2'>
+      <form onSubmit={handleSubmit}>
+        <div>
+          <label>Ваше имя:</label>
+          <input
+            type="text"
+            name="username"
+            value={userInput.username}
+            onChange={handleChange}
+            required
+          />
+        </div>
+        <div>
+          <label>Ваш телефон:</label>
+          <input
+            type="text"
+            name="phone"
+            value={userInput.phone}
+            onChange={handleChange}
+            required
+          />
+        </div>
+        <button type="submit">Отправить</button>
+      </form>
+
+    </div>
   );
 }
 
