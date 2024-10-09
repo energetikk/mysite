@@ -28,7 +28,7 @@ export function ContactForm() {
       });
 
       if (response.ok) {
-        console.log('Сообщение усмешно отправлено!');
+        console.log('Сообщение успешно отправлено!');
         setUserInput({ username: '', phone: '' });
 
       } else {
@@ -62,7 +62,7 @@ export function ContactForm() {
             required
           />
         </div>
-        <button type="submit">Отправить</button>
+        <button type="submit">Написать мне!</button>
       </form>
 
     </div>
