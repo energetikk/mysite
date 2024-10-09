@@ -1,4 +1,4 @@
-/* @tailwind base;
+@tailwind base;
 @tailwind components;
 @tailwind utilities;
 
@@ -20,8 +20,13 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.activelink {
+  background-color: rgb(59 130 246);
+  color: white;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
-} */
+}
