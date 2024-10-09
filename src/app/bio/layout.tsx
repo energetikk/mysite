@@ -13,7 +13,7 @@ export default function Layout({
                         <div className="col-span-4 sm:col-span-3">
                             <div className="bg-white shadow rounded-lg p-6">
                                 <div className="flex flex-col items-center text-center">
-                                    <img src="https://downloader.disk.yandex.ru/preview/b9fe4c9df25666eda6421a98b21d1645c825a275879fcadb2cea4d09d96cc71c/67071ce5/cQC3mDaRbDJZnRh59YOLqDQct_a_OqeipC7WsIAg19KHiEN5EU1Gflmd3h-FZdcDwxsLDcgWQ1wlTlZbTtpTzw%3D%3D?uid=0&filename=photo_2023-04-09_00-32-00.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=0&tknv=v2&size=204x204" className="w-32 h-32 object-cover bg-gray-300 rounded-full mb-4 shrink-0">
+                                    <img src="https://randomuser.me/api/portraits/men/94.jpg" className="w-32 h-32 object-cover bg-gray-300 rounded-full mb-4 shrink-0">
                                     </img>
                                     <h1 className="text-xl font-bold">Pavel Demin</h1>
                                     <p className="text-gray-700">Frontend Developer</p>
