@@ -3,10 +3,8 @@ export default function Projects() {
     return (
 
         <section className="mt-4">
-            <h2 className="text-3xl font-bold dark:text-white">Software Projects</h2>
-            <p className="mt-6 text-lg dark:text-neutral-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
-                aspernatur numquam suscipit. Quae, itaque veritatis. Mollitia sunt consequatur a. Id, quia fuga laudantium enim
-                illo deserunt minima pariatur soluta veniam!</p>
+            <h2 className="text-3xl font-bold dark:text-white">Список приложений</h2>
+            <p className="mt-6 text-lg dark:text-neutral-200">Последние реализованные приложения и стек технологий:</p>
 
             <div className="mt-8 grid grid-cols-1 gap-8 sm:grid-cols-2">
                 <section
