@@ -7,30 +7,35 @@ export default function Projects() {
             <p className="mt-6 text-lg dark:text-neutral-200">Последние реализованные приложения и стек технологий:</p>
 
             <div className="mt-8 grid grid-cols-1 gap-8 sm:grid-cols-2">
+                <a href="howtolearn.paveldev.ru" target="_blank">
+                    <section
+                        className="card cursor-pointer rounded p-5 shadow-sm shadow-black/60 transition hover:-translate-y-2 hover:shadow-md hover:shadow-black/50 dark:bg-neutral-800">
+                        <header className="flex items-center justify-between dark:text-gray-50">
+                            <h3 className="text-lg font-bold">Научиться учиться!</h3>
+                            {/* <span>123</span> */}
+                        </header>
+
+                        <div className="mt-2 dark:text-gray-300">Generate font size variables for a fluid type scale with CSS clamp.</div>
+
+                        <footer className="my-4 flex gap-1 flex-wrap">
+                            <span className="bg-neutral-100 px-4 py-1 text-sm dark:bg-neutral-600 dark:text-gray-50">nextjs</span>
+                            <span className="bg-neutral-100 px-4 py-1 text-sm dark:bg-neutral-600 dark:text-gray-50">typescript</span>
+                            <span className="bg-neutral-100 px-4 py-1 text-sm dark:bg-neutral-600 dark:text-gray-50">sass</span>
+                        </footer>
+                    </section>
+                </a>
+
                 <section
                     className="card cursor-pointer rounded p-5 shadow-sm shadow-black/60 transition hover:-translate-y-2 hover:shadow-md hover:shadow-black/50 dark:bg-neutral-800">
                     <header className="flex items-center justify-between dark:text-gray-50">
-                        <h3 className="text-lg font-bold">Fluid-type-scale.com</h3>
-                        <span>123</span>
-                    </header>
-                    <div className="mt-2 dark:text-gray-300">Generate font size variables for a fluid type scale with CSS clamp.</div>
-
-                    <footer className="my-4 flex gap-1">
-                        <span className="bg-neutral-100 px-4 py-1 text-sm dark:bg-neutral-600 dark:text-gray-50">nextjs</span>
-                        <span className="bg-neutral-100 px-4 py-1 text-sm dark:bg-neutral-600 dark:text-gray-50">typescript</span>
-                        <span className="bg-neutral-100 px-4 py-1 text-sm dark:bg-neutral-600 dark:text-gray-50">sass</span>
-                    </footer>
-                </section>
-
-                <section
-                    className="card cursor-pointer rounded p-5 shadow-sm shadow-black/60 transition hover:-translate-y-2 hover:shadow-md hover:shadow-black/50 dark:bg-neutral-800">
-                    <header className="flex items-center justify-between dark:text-gray-50">
-                        <h3 className="text-lg font-bold">This Website!</h3>
-                        <span>67</span>
+                        <a href="www.russiantravel.paveldev.ru" target="_blank" className="">
+                            <h3 className="text-lg font-bold hover:underline">Путешествие по России</h3>
+                        </a>
+                        {/* <span>67</span> */}
                     </header>
                     <div className="mt-2 dark:text-gray-300">My online resume and blog, created with 11ty, Sass, and JavaScript.</div>
 
-                    <footer className="my-4 flex gap-1">
+                    <footer className="my-4 flex gap-1 flex-wrap">
                         <span className="bg-neutral-100 px-4 py-1 text-sm dark:bg-neutral-600 dark:text-gray-50">11ty</span>
                         <span className="bg-neutral-100 px-4 py-1 text-sm dark:bg-neutral-600 dark:text-gray-50">sass</span>
                         <span className="bg-neutral-100 px-4 py-1 text-sm dark:bg-neutral-600 dark:text-gray-50">javascript</span>
@@ -40,13 +45,13 @@ export default function Projects() {
                 <section
                     className="card cursor-pointer rounded p-5 shadow-sm shadow-black/60 transition hover:-translate-y-2 hover:shadow-md hover:shadow-black/50 dark:bg-neutral-800">
                     <header className="flex items-center justify-between dark:text-gray-50">
-                        <h3 className="text-lg font-bold">Scribe</h3>
+                        <h3 className="text-lg font-bold">Mesto</h3>
                         <span>20</span>
                     </header>
                     <div className="mt-2 dark:text-gray-300">Text editor developed with the Qt framework. Features standard fie
                         operations, syntax highlighting, brace autocomplete, and auto-indentation.</div>
 
-                    <footer className="my-4 flex gap-1">
+                    <footer className="my-4 flex gap-1 flex-wrap">
                         <span className="bg-neutral-100 px-4 py-1 text-sm dark:bg-neutral-600 dark:text-gray-50">c++</span>
                         <span className="bg-neutral-100 px-4 py-1 text-sm dark:bg-neutral-600 dark:text-gray-50">qt5</span>
                         <span className="bg-neutral-100 px-4 py-1 text-sm dark:bg-neutral-600 dark:text-gray-50">qtcreator</span>
@@ -56,13 +61,13 @@ export default function Projects() {
                 <section
                     className="card cursor-pointer rounded p-5 shadow-sm shadow-black/60 transition hover:-translate-y-2 hover:shadow-md hover:shadow-black/50 dark:bg-neutral-800">
                     <header className="flex items-center justify-between dark:text-gray-50">
-                        <h3 className="text-lg font-bold">U.S. Gun Crimes</h3>
+                        <h3 className="text-lg font-bold">Movies Explorer</h3>
                         <span>6</span>
                     </header>
                     <div className="mt-2 dark:text-gray-300">A database-driven web app that allows you to visualize U.S. gun crime
                         statistics and trends for the period of 2013-2018.</div>
 
-                    <footer className="my-4 flex gap-1">
+                    <footer className="my-4 flex gap-1 flex-wrap">
                         <span className="bg-neutral-100 px-4 py-1 text-sm dark:bg-neutral-600 dark:text-gray-50">react</span>
                         <span className="bg-neutral-100 px-4 py-1 text-sm dark:bg-neutral-600 dark:text-gray-50">typescript</span>
                         <span className="bg-neutral-100 px-4 py-1 text-sm dark:bg-neutral-600 dark:text-gray-50">express</span>
@@ -73,13 +78,13 @@ export default function Projects() {
                 <section
                     className="card cursor-pointer rounded p-5 shadow-sm shadow-black/60 transition hover:-translate-y-2 hover:shadow-md hover:shadow-black/50 dark:bg-neutral-800">
                     <header className="flex items-center justify-between dark:text-gray-50">
-                        <h3 className="text-lg font-bold">Embody</h3>
+                        <h3 className="text-lg font-bold">BaseFilms</h3>
                         <span>3</span>
                     </header>
                     <div className="mt-2 dark:text-gray-300">Embody is a dungeon crawler inspired by the Binding of Isaac that lets
                         you possess dead enemies.</div>
 
-                    <footer className="my-4 flex gap-1">
+                    <footer className="my-4 flex gap-1 flex-wrap">
                         <span className="bg-neutral-100 px-4 py-1 text-sm dark:bg-neutral-600 dark:text-gray-50">C#</span>
                         <span className="bg-neutral-100 px-4 py-1 text-sm dark:bg-neutral-600 dark:text-gray-50">unity</span>
                         <span className="bg-neutral-100 px-4 py-1 text-sm dark:bg-neutral-600 dark:text-gray-50">game-ai</span>
