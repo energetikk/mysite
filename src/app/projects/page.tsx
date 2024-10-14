@@ -7,7 +7,7 @@ export default function Projects() {
             <p className="mt-6 text-lg dark:text-neutral-200">Последние реализованные приложения и стек технологий:</p>
 
             <div className="mt-8 grid grid-cols-1 gap-8 sm:grid-cols-2">
-                <a href="howtolearn.paveldev.ru" target="_blank">
+                <a href="https://www.howtolearn.paveldev.ru" target="_blank">
                     <section
                         className="card cursor-pointer rounded p-5 shadow-sm shadow-black/60 transition hover:-translate-y-2 hover:shadow-md hover:shadow-black/50 dark:bg-neutral-800">
                         <header className="flex items-center justify-between dark:text-gray-50">
@@ -28,7 +28,7 @@ export default function Projects() {
                 <section
                     className="card cursor-pointer rounded p-5 shadow-sm shadow-black/60 transition hover:-translate-y-2 hover:shadow-md hover:shadow-black/50 dark:bg-neutral-800">
                     <header className="flex items-center justify-between dark:text-gray-50">
-                        <a href="www.russiantravel.paveldev.ru" target="_blank" className="">
+                        <a href="https://www.russiantravel.paveldev.ru" target="_blank" className="">
                             <h3 className="text-lg font-bold hover:underline">Путешествие по России</h3>
                         </a>
                         {/* <span>67</span> */}
