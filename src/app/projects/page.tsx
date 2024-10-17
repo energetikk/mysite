@@ -11,11 +11,12 @@ export default function Projects() {
                     <section
                         className="card cursor-pointer rounded p-5 shadow-sm shadow-black/60 transition hover:-translate-y-2 hover:shadow-md hover:shadow-black/50 dark:bg-neutral-800">
                         <header className="flex items-center justify-between dark:text-gray-50">
-                            <h3 className="text-lg font-bold">Научиться учиться!</h3>
-                            {/* <span>123</span> */}
+                            <a href="https://www.howtolearn.paveldev.ru" target="_blank" className="hover:underline">
+                                <h3 className="text-lg font-bold">Научиться учиться!</h3>
+                            </a>
                         </header>
 
-                        <div className="mt-2 dark:text-gray-300">Generate font size variables for a fluid type scale with CSS clamp.</div>
+                        <div className="mt-2 dark:text-gray-300">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?</div>
 
                         <footer className="my-4 flex gap-1 flex-wrap">
                             <span className="bg-neutral-100 px-4 py-1 text-sm dark:bg-neutral-600 dark:text-gray-50">nextjs</span>
@@ -28,12 +29,11 @@ export default function Projects() {
                 <section
                     className="card cursor-pointer rounded p-5 shadow-sm shadow-black/60 transition hover:-translate-y-2 hover:shadow-md hover:shadow-black/50 dark:bg-neutral-800">
                     <header className="flex items-center justify-between dark:text-gray-50">
-                        <a href="https://www.russiantravel.paveldev.ru" target="_blank" className="">
-                            <h3 className="text-lg font-bold hover:underline">Путешествие по России</h3>
+                        <a href="https://www.russiantravel.paveldev.ru" target="_blank" className="hover:underline">
+                            <h3 className="text-lg font-bold ">Путешествие по России</h3>
                         </a>
-                        {/* <span>67</span> */}
                     </header>
-                    <div className="mt-2 dark:text-gray-300">My online resume and blog, created with 11ty, Sass, and JavaScript.</div>
+                    <div className="mt-2 dark:text-gray-300">Настоящая страна не в выпусках новостей, а здесь.</div>
 
                     <footer className="my-4 flex gap-1 flex-wrap">
                         <span className="bg-neutral-100 px-4 py-1 text-sm dark:bg-neutral-600 dark:text-gray-50">11ty</span>
@@ -45,8 +45,9 @@ export default function Projects() {
                 <section
                     className="card cursor-pointer rounded p-5 shadow-sm shadow-black/60 transition hover:-translate-y-2 hover:shadow-md hover:shadow-black/50 dark:bg-neutral-800">
                     <header className="flex items-center justify-between dark:text-gray-50">
-                        <h3 className="text-lg font-bold">Mesto</h3>
-                        <span>20</span>
+                        <a href="https://mesto-demin.vercel.app" target="_blank" className="hover:underline">
+                            <h3 className="text-lg font-bold">Mesto</h3>
+                        </a>
                     </header>
                     <div className="mt-2 dark:text-gray-300">Text editor developed with the Qt framework. Features standard fie
                         operations, syntax highlighting, brace autocomplete, and auto-indentation.</div>
@@ -61,8 +62,9 @@ export default function Projects() {
                 <section
                     className="card cursor-pointer rounded p-5 shadow-sm shadow-black/60 transition hover:-translate-y-2 hover:shadow-md hover:shadow-black/50 dark:bg-neutral-800">
                     <header className="flex items-center justify-between dark:text-gray-50">
-                        <h3 className="text-lg font-bold">Movies Explorer</h3>
-                        <span>6</span>
+                        <a href="https://paveldemin.vercel.app/" target="_blank" className="hover:underline">
+                            <h3 className="text-lg font-bold">Movies Explorer</h3>
+                        </a>
                     </header>
                     <div className="mt-2 dark:text-gray-300">A database-driven web app that allows you to visualize U.S. gun crime
                         statistics and trends for the period of 2013-2018.</div>
@@ -78,8 +80,9 @@ export default function Projects() {
                 <section
                     className="card cursor-pointer rounded p-5 shadow-sm shadow-black/60 transition hover:-translate-y-2 hover:shadow-md hover:shadow-black/50 dark:bg-neutral-800">
                     <header className="flex items-center justify-between dark:text-gray-50">
-                        <h3 className="text-lg font-bold">BaseFilms</h3>
-                        <span>3</span>
+                        <a href="https://basefilm.vercel.app/" target="_blank" className="hover:underline">
+                            <h3 className="text-lg font-bold">BaseFilms</h3>
+                        </a>
                     </header>
                     <div className="mt-2 dark:text-gray-300">Embody is a dungeon crawler inspired by the Binding of Isaac that lets
                         you possess dead enemies.</div>
