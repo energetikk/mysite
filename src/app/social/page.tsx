@@ -1,5 +1,6 @@
 import { SocialNets } from '@/components/SocialNets/SocialNets'
 
+
 export default function Social() {
 
     return (

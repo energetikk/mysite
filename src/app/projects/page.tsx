@@ -1,3 +1,8 @@
+import { Metadata } from 'next';
+export const metadata: Metadata = {
+    title: "Pavel Demin | Проекты",
+  };
+
 export default function Projects() {
 
     return (
