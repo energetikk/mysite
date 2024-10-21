@@ -17,7 +17,7 @@ export default function Projects() {
                         className="card cursor-pointer rounded p-5 shadow-sm shadow-black/60 transition hover:-translate-y-2 hover:shadow-md hover:shadow-black/50 dark:bg-neutral-800">
                         <header className="flex items-center justify-between dark:text-gray-50">
                             <a href="https://www.howtolearn.paveldev.ru" target="_blank" className="hover:underline">
-                                <h3 className="text-lg font-bold">Научиться учиться!</h3>
+                                <h3 className="text-lg font-bold text-blue-500 hover:text-blue-600">Научиться учиться!</h3>
                             </a>
                         </header>
 
@@ -35,7 +35,7 @@ export default function Projects() {
                     className="card cursor-pointer rounded p-5 shadow-sm shadow-black/60 transition hover:-translate-y-2 hover:shadow-md hover:shadow-black/50 dark:bg-neutral-800">
                     <header className="flex items-center justify-between dark:text-gray-50">
                         <a href="https://www.russiantravel.paveldev.ru" target="_blank" className="hover:underline">
-                            <h3 className="text-lg font-bold ">Путешествие по России</h3>
+                            <h3 className="text-lg font-bold text-blue-500 hover:text-blue-600">Путешествие по России</h3>
                         </a>
                     </header>
                     <div className="mt-2 dark:text-gray-300">Настоящая страна не в выпусках новостей, а здесь.</div>
@@ -50,8 +50,8 @@ export default function Projects() {
                 <section
                     className="card cursor-pointer rounded p-5 shadow-sm shadow-black/60 transition hover:-translate-y-2 hover:shadow-md hover:shadow-black/50 dark:bg-neutral-800">
                     <header className="flex items-center justify-between dark:text-gray-50">
-                        <a href="https://mesto-demin.vercel.app" target="_blank" className="hover:underline">
-                            <h3 className="text-lg font-bold">Mesto</h3>
+                        <a href="http://mesto.paveldev.ru" target="_blank" className="hover:underline">
+                            <h3 className="text-lg font-bold text-blue-500 hover:text-blue-600">Mesto</h3>
                         </a>
                     </header>
                     <div className="mt-2 dark:text-gray-300">Text editor developed with the Qt framework. Features standard fie
@@ -68,7 +68,7 @@ export default function Projects() {
                     className="card cursor-pointer rounded p-5 shadow-sm shadow-black/60 transition hover:-translate-y-2 hover:shadow-md hover:shadow-black/50 dark:bg-neutral-800">
                     <header className="flex items-center justify-between dark:text-gray-50">
                         <a href="https://paveldemin.vercel.app/" target="_blank" className="hover:underline">
-                            <h3 className="text-lg font-bold">Movies Explorer</h3>
+                            <h3 className="text-lg font-bold text-blue-500 hover:text-blue-600">Movies Explorer</h3>
                         </a>
                     </header>
                     <div className="mt-2 dark:text-gray-300">A database-driven web app that allows you to visualize U.S. gun crime
@@ -86,7 +86,7 @@ export default function Projects() {
                     className="card cursor-pointer rounded p-5 shadow-sm shadow-black/60 transition hover:-translate-y-2 hover:shadow-md hover:shadow-black/50 dark:bg-neutral-800">
                     <header className="flex items-center justify-between dark:text-gray-50">
                         <a href="https://basefilm.vercel.app/" target="_blank" className="hover:underline">
-                            <h3 className="text-lg font-bold">BaseFilms</h3>
+                            <h3 className="text-lg font-bold text-blue-500 hover:text-blue-600">BaseFilms</h3>
                         </a>
                     </header>
                     <div className="mt-2 dark:text-gray-300">Embody is a dungeon crawler inspired by the Binding of Isaac that lets
