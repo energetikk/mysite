@@ -50,7 +50,7 @@ export default function Projects() {
                 <section
                     className="card cursor-pointer rounded p-5 shadow-sm shadow-black/60 transition hover:-translate-y-2 hover:shadow-md hover:shadow-black/50 dark:bg-neutral-800">
                     <header className="flex items-center justify-between dark:text-gray-50">
-                        <a href="http://mesto.paveldev.ru" target="_blank" className="hover:underline">
+                        <a href="https://mesto.paveldev.ru" target="_blank" className="hover:underline">
                             <h3 className="text-lg font-bold text-blue-500 hover:text-blue-600">Mesto</h3>
                         </a>
                     </header>
