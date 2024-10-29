@@ -38,7 +38,7 @@ export default function Projects() {
                             <h3 className="text-lg font-bold text-blue-500 hover:text-blue-600">Путешествие по России</h3>
                         </a>
                     </header>
-                    <div className="mt-2 dark:text-gray-300">Настоящая страна не в выпусках новостей, а здесь.</div>
+                    <div className="mt-2 dark:text-gray-300">Настоящая страна не в выпусках новостей, а здесь. Путешествие в два клика по самым невероятным уголкам нашей страны!</div>
 
                     <footer className="my-4 flex gap-1 flex-wrap">
                         <span className="bg-neutral-100 px-4 py-1 text-sm dark:bg-neutral-600 dark:text-gray-50">11ty</span>
@@ -54,31 +54,29 @@ export default function Projects() {
                             <h3 className="text-lg font-bold text-blue-500 hover:text-blue-600">Mesto</h3>
                         </a>
                     </header>
-                    <div className="mt-2 dark:text-gray-300">Text editor developed with the Qt framework. Features standard fie
-                        operations, syntax highlighting, brace autocomplete, and auto-indentation.</div>
-
+                    <div className="mt-2 dark:text-gray-300">Сервис Mesto представляет собой интерактивную платформу, на которой можно создать свой аккаунт, добавлять фотографии, удалять их и ставить лайки.</div>
                     <footer className="my-4 flex gap-1 flex-wrap">
-                        <span className="bg-neutral-100 px-4 py-1 text-sm dark:bg-neutral-600 dark:text-gray-50">c++</span>
-                        <span className="bg-neutral-100 px-4 py-1 text-sm dark:bg-neutral-600 dark:text-gray-50">qt5</span>
-                        <span className="bg-neutral-100 px-4 py-1 text-sm dark:bg-neutral-600 dark:text-gray-50">qtcreator</span>
+                        <span className="bg-neutral-100 px-4 py-1 text-sm dark:bg-neutral-600 dark:text-gray-50">React.js</span>
+                        <span className="bg-neutral-100 px-4 py-1 text-sm dark:bg-neutral-600 dark:text-gray-50">Express.js</span>
+                        <span className="bg-neutral-100 px-4 py-1 text-sm dark:bg-neutral-600 dark:text-gray-50">SCSS</span>
+                        <span className="bg-neutral-100 px-4 py-1 text-sm dark:bg-neutral-600 dark:text-gray-50">Docker</span>
                     </footer>
                 </section>
 
                 <section
                     className="card cursor-pointer rounded p-5 shadow-sm shadow-black/60 transition hover:-translate-y-2 hover:shadow-md hover:shadow-black/50 dark:bg-neutral-800">
                     <header className="flex items-center justify-between dark:text-gray-50">
-                        <a href="https://paveldemin.vercel.app/" target="_blank" className="hover:underline">
+                        <a href="https://movies.paveldev.ru/" target="_blank" className="hover:underline">
                             <h3 className="text-lg font-bold text-blue-500 hover:text-blue-600">Movies Explorer</h3>
                         </a>
                     </header>
-                    <div className="mt-2 dark:text-gray-300">A database-driven web app that allows you to visualize U.S. gun crime
-                        statistics and trends for the period of 2013-2018.</div>
+                    <div className="mt-2 dark:text-gray-300">Проект Movies Explorer – это интерактивная страница, где можно пройти регистрацию, авторизоваться, редактировать профиль, находить фильмы, узнавать их длительность и смотреть трейлеры. Понравившиеся фильмы можно добавить в "Сохраненные фильмы", чтобы позже не искать их снова. </div>
 
                     <footer className="my-4 flex gap-1 flex-wrap">
-                        <span className="bg-neutral-100 px-4 py-1 text-sm dark:bg-neutral-600 dark:text-gray-50">react</span>
-                        <span className="bg-neutral-100 px-4 py-1 text-sm dark:bg-neutral-600 dark:text-gray-50">typescript</span>
-                        <span className="bg-neutral-100 px-4 py-1 text-sm dark:bg-neutral-600 dark:text-gray-50">express</span>
-                        <span className="bg-neutral-100 px-4 py-1 text-sm dark:bg-neutral-600 dark:text-gray-50">sql</span>
+                        <span className="bg-neutral-100 px-4 py-1 text-sm dark:bg-neutral-600 dark:text-gray-50">React.js</span>
+                        <span className="bg-neutral-100 px-4 py-1 text-sm dark:bg-neutral-600 dark:text-gray-50">Express.js</span>
+                        <span className="bg-neutral-100 px-4 py-1 text-sm dark:bg-neutral-600 dark:text-gray-50">SCSS</span>
+                        <span className="bg-neutral-100 px-4 py-1 text-sm dark:bg-neutral-600 dark:text-gray-50">Docker</span>
                     </footer>
                 </section>
 
@@ -86,23 +84,24 @@ export default function Projects() {
                     className="card cursor-pointer rounded p-5 shadow-sm shadow-black/60 transition hover:-translate-y-2 hover:shadow-md hover:shadow-black/50 dark:bg-neutral-800">
                     <header className="flex items-center justify-between dark:text-gray-50">
                         <a href="https://basefilm.vercel.app/" target="_blank" className="hover:underline">
-                            <h3 className="text-lg font-bold text-blue-500 hover:text-blue-600">BaseFilms</h3>
+                            <h3 className="text-lg font-bold text-blue-500 hover:text-blue-600">КиноСклад</h3>
                         </a>
                     </header>
-                    <div className="mt-2 dark:text-gray-300">Embody is a dungeon crawler inspired by the Binding of Isaac that lets
-                        you possess dead enemies.</div>
+                    <div className="mt-2 dark:text-gray-300">На сайте можно зарегистрироваться и искать фильмы по базе данных. Администраторы добавляют новые фильмы, чтобы всегда было что посмотреть.</div>
 
                     <footer className="my-4 flex gap-1 flex-wrap">
-                        <span className="bg-neutral-100 px-4 py-1 text-sm dark:bg-neutral-600 dark:text-gray-50">C#</span>
-                        <span className="bg-neutral-100 px-4 py-1 text-sm dark:bg-neutral-600 dark:text-gray-50">unity</span>
-                        <span className="bg-neutral-100 px-4 py-1 text-sm dark:bg-neutral-600 dark:text-gray-50">game-ai</span>
+                        <span className="bg-neutral-100 px-4 py-1 text-sm dark:bg-neutral-600 dark:text-gray-50">Next.js</span>
+                        <span className="bg-neutral-100 px-4 py-1 text-sm dark:bg-neutral-600 dark:text-gray-50">TailWind</span>
+                        <span className="bg-neutral-100 px-4 py-1 text-sm dark:bg-neutral-600 dark:text-gray-50">Shadcn/ui</span>
+                        <span className="bg-neutral-100 px-4 py-1 text-sm dark:bg-neutral-600 dark:text-gray-50">Prisma</span>
+                        <span className="bg-neutral-100 px-4 py-1 text-sm dark:bg-neutral-600 dark:text-gray-50">PostgreSQL</span>
                     </footer>
                 </section>
 
                 <section className="flex flex-col items-center justify-center">
                     <header>
-                        <h3 className="text-xl font-bold dark:text-white">Want to see more of my work</h3>
-                        <h4 className="text-center text-lg dark:text-neutral-200">Check out my other repos:</h4>
+                        <h3 className="text-xl font-bold dark:text-white">Хотите увидеть больше моих работ?</h3>
+                        <h4 className="text-center text-lg dark:text-neutral-200">Проверьте мои другие репозитории:</h4>
                     </header>
                     <div className="mt-4">
                         <a href="https://github.com/energetikk">
