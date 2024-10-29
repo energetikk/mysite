@@ -9,7 +9,8 @@ export default function Contacts() {
     return (
         <div className="bg-white shadow rounded-lg p-6">
             <div className="flex flex-col items-center text-center">
-                <img src="https://randomuser.me/api/portraits/men/94.jpg" className="w-32 h-32 object-cover bg-gray-300 rounded-full mb-4 shrink-0">
+                {/* <img src="https://randomuser.me/api/portraits/men/94.jpg" className="w-32 h-32 object-cover bg-gray-300 rounded-full mb-4 shrink-0"> */}
+                <img src="https://i.imgur.com/kdhlGs3.png" className="w-32 h-32 object-cover bg-gray-300 rounded-full mb-4 shrink-0">
                 </img>
                 <h1 className="text-xl font-bold">Дёмин Павел</h1>
                 <p className="text-gray-700">Frontend Developer</p>

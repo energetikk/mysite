@@ -24,9 +24,10 @@ export default function Projects() {
                         <div className="mt-2 dark:text-gray-300">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?</div>
 
                         <footer className="my-4 flex gap-1 flex-wrap">
-                            <span className="bg-neutral-100 px-4 py-1 text-sm dark:bg-neutral-600 dark:text-gray-50">nextjs</span>
-                            <span className="bg-neutral-100 px-4 py-1 text-sm dark:bg-neutral-600 dark:text-gray-50">typescript</span>
-                            <span className="bg-neutral-100 px-4 py-1 text-sm dark:bg-neutral-600 dark:text-gray-50">sass</span>
+                            <span className="bg-neutral-100 px-4 py-1 text-sm dark:bg-neutral-600 dark:text-gray-50">JS</span>
+                            <span className="bg-neutral-100 px-4 py-1 text-sm dark:bg-neutral-600 dark:text-gray-50">Flex/Grid</span>
+                            <span className="bg-neutral-100 px-4 py-1 text-sm dark:bg-neutral-600 dark:text-gray-50">CSS3</span>
+                            <span className="bg-neutral-100 px-4 py-1 text-sm dark:bg-neutral-600 dark:text-gray-50">BEM</span>
                         </footer>
                     </section>
                 </a>
@@ -41,42 +42,10 @@ export default function Projects() {
                     <div className="mt-2 dark:text-gray-300">Настоящая страна не в выпусках новостей, а здесь. Путешествие в два клика по самым невероятным уголкам нашей страны!</div>
 
                     <footer className="my-4 flex gap-1 flex-wrap">
-                        <span className="bg-neutral-100 px-4 py-1 text-sm dark:bg-neutral-600 dark:text-gray-50">11ty</span>
-                        <span className="bg-neutral-100 px-4 py-1 text-sm dark:bg-neutral-600 dark:text-gray-50">sass</span>
-                        <span className="bg-neutral-100 px-4 py-1 text-sm dark:bg-neutral-600 dark:text-gray-50">javascript</span>
-                    </footer>
-                </section>
-
-                <section
-                    className="card cursor-pointer rounded p-5 shadow-sm shadow-black/60 transition hover:-translate-y-2 hover:shadow-md hover:shadow-black/50 dark:bg-neutral-800">
-                    <header className="flex items-center justify-between dark:text-gray-50">
-                        <a href="https://mesto.paveldev.ru" target="_blank" className="hover:underline">
-                            <h3 className="text-lg font-bold text-blue-500 hover:text-blue-600">Mesto</h3>
-                        </a>
-                    </header>
-                    <div className="mt-2 dark:text-gray-300">Сервис Mesto представляет собой интерактивную платформу, на которой можно создать свой аккаунт, добавлять фотографии, удалять их и ставить лайки.</div>
-                    <footer className="my-4 flex gap-1 flex-wrap">
-                        <span className="bg-neutral-100 px-4 py-1 text-sm dark:bg-neutral-600 dark:text-gray-50">React.js</span>
-                        <span className="bg-neutral-100 px-4 py-1 text-sm dark:bg-neutral-600 dark:text-gray-50">Express.js</span>
-                        <span className="bg-neutral-100 px-4 py-1 text-sm dark:bg-neutral-600 dark:text-gray-50">SCSS</span>
-                        <span className="bg-neutral-100 px-4 py-1 text-sm dark:bg-neutral-600 dark:text-gray-50">Docker</span>
-                    </footer>
-                </section>
-
-                <section
-                    className="card cursor-pointer rounded p-5 shadow-sm shadow-black/60 transition hover:-translate-y-2 hover:shadow-md hover:shadow-black/50 dark:bg-neutral-800">
-                    <header className="flex items-center justify-between dark:text-gray-50">
-                        <a href="https://movies.paveldev.ru/" target="_blank" className="hover:underline">
-                            <h3 className="text-lg font-bold text-blue-500 hover:text-blue-600">Movies Explorer</h3>
-                        </a>
-                    </header>
-                    <div className="mt-2 dark:text-gray-300">Проект Movies Explorer – это интерактивная страница, где можно пройти регистрацию, авторизоваться, редактировать профиль, находить фильмы, узнавать их длительность и смотреть трейлеры. Понравившиеся фильмы можно добавить в "Сохраненные фильмы", чтобы позже не искать их снова. </div>
-
-                    <footer className="my-4 flex gap-1 flex-wrap">
-                        <span className="bg-neutral-100 px-4 py-1 text-sm dark:bg-neutral-600 dark:text-gray-50">React.js</span>
-                        <span className="bg-neutral-100 px-4 py-1 text-sm dark:bg-neutral-600 dark:text-gray-50">Express.js</span>
-                        <span className="bg-neutral-100 px-4 py-1 text-sm dark:bg-neutral-600 dark:text-gray-50">SCSS</span>
-                        <span className="bg-neutral-100 px-4 py-1 text-sm dark:bg-neutral-600 dark:text-gray-50">Docker</span>
+                        <span className="bg-neutral-100 px-4 py-1 text-sm dark:bg-neutral-600 dark:text-gray-50">JS</span>
+                        <span className="bg-neutral-100 px-4 py-1 text-sm dark:bg-neutral-600 dark:text-gray-50">Flex/Grid</span>
+                        <span className="bg-neutral-100 px-4 py-1 text-sm dark:bg-neutral-600 dark:text-gray-50">BEM</span>
+                        <span className="bg-neutral-100 px-4 py-1 text-sm dark:bg-neutral-600 dark:text-gray-50">PixelPerfect</span>
                     </footer>
                 </section>
 
@@ -98,13 +67,46 @@ export default function Projects() {
                     </footer>
                 </section>
 
+                <section
+                    className="card cursor-pointer rounded p-5 shadow-sm shadow-black/60 transition hover:-translate-y-2 hover:shadow-md hover:shadow-black/50 dark:bg-neutral-800">
+                    <header className="flex items-center justify-between dark:text-gray-50">
+                        <a href="https://mesto.paveldev.ru" target="_blank" className="hover:underline">
+                            <h3 className="text-lg font-bold text-blue-500 hover:text-blue-600">Mesto</h3>
+                        </a>
+                    </header>
+                    <div className="mt-2 dark:text-gray-300">Сервис Mesto представляет собой интерактивную платформу, на которой можно создать свой аккаунт, добавлять фотографии, удалять их и ставить лайки.</div>
+                    <footer className="my-4 flex gap-1 flex-wrap">
+                        <span className="bg-neutral-100 px-4 py-1 text-sm dark:bg-neutral-600 dark:text-gray-50">React.js</span>
+                        <span className="bg-neutral-100 px-4 py-1 text-sm dark:bg-neutral-600 dark:text-gray-50">Express.js</span>
+                        <span className="bg-neutral-100 px-4 py-1 text-sm dark:bg-neutral-600 dark:text-gray-50">SASS</span>
+                        <span className="bg-neutral-100 px-4 py-1 text-sm dark:bg-neutral-600 dark:text-gray-50">Docker</span>
+                    </footer>
+                </section>
+
+                <section
+                    className="card cursor-pointer rounded p-5 shadow-sm shadow-black/60 transition hover:-translate-y-2 hover:shadow-md hover:shadow-black/50 dark:bg-neutral-800">
+                    <header className="flex items-center justify-between dark:text-gray-50">
+                        <a href="https://movies.paveldev.ru/" target="_blank" className="hover:underline">
+                            <h3 className="text-lg font-bold text-blue-500 hover:text-blue-600">Movies Explorer</h3>
+                        </a>
+                    </header>
+                    <div className="mt-2 dark:text-gray-300">Проект Movies Explorer – это интерактивная страница, где можно пройти регистрацию, авторизоваться, редактировать профиль, находить фильмы, узнавать их длительность и смотреть трейлеры. Понравившиеся фильмы можно добавить в "Сохраненные фильмы", чтобы позже не искать их снова. </div>
+
+                    <footer className="my-4 flex gap-1 flex-wrap">
+                        <span className="bg-neutral-100 px-4 py-1 text-sm dark:bg-neutral-600 dark:text-gray-50">React.js</span>
+                        <span className="bg-neutral-100 px-4 py-1 text-sm dark:bg-neutral-600 dark:text-gray-50">Express.js</span>
+                        <span className="bg-neutral-100 px-4 py-1 text-sm dark:bg-neutral-600 dark:text-gray-50">SCSS</span>
+                        <span className="bg-neutral-100 px-4 py-1 text-sm dark:bg-neutral-600 dark:text-gray-50">Docker</span>
+                    </footer>
+                </section>
+
                 <section className="flex flex-col items-center justify-center">
                     <header>
                         <h3 className="text-xl font-bold dark:text-white">Хотите увидеть больше моих работ?</h3>
                         <h4 className="text-center text-lg dark:text-neutral-200">Проверьте мои другие репозитории:</h4>
                     </header>
                     <div className="mt-4">
-                        <a href="https://github.com/energetikk">
+                        <a href="https://github.com/energetikk?tab=repositories">
                             <svg className="h-12 text-black dark:text-white" role="img" viewBox="0 0 24 24"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <title>GitHub</title>
