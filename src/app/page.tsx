@@ -1,5 +1,5 @@
-import { ContactForm } from '@/components/form/form';
-import { SocialNets } from "@/components/SocialNets/SocialNets"
+// import { ContactForm } from '@/components/form/form';
+// import { SocialNets } from "@/components/SocialNets/SocialNets"
 
 export default function Home() {
 

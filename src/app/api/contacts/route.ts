@@ -1,22 +1,23 @@
 export async function POST(req: Request, res: Response) {
     if (req.method === 'POST') {
       const body = await req.json()
-      const { username, phone, email }: any = body;
+      const { username, text, phone, email }: any = body;
       const botToken = process.env.TOKEN;
       const chatId = process.env.CHAT_ID;
   
       const telegramUrl = `https://api.telegram.org/bot${botToken}/sendMessage`;
   
-      const text = `
+      const message = `
          Новый контакт с сайта📩:
          <b>Имя:</b> ${username}
+         <b>Сообщение:</b> ${text}
          <b>Телефон:</b> ${phone}
          <b>Почта:</b> ${email}
            `;
   
         const params = {
             chat_id: chatId,
-            text: text,
+            text: message,
             parse_mode: 'HTML',
         }
 
