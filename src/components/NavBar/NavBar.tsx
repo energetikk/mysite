@@ -6,11 +6,11 @@ import Link from "next/link"
 export default function NavBar() {
     const pathname = usePathname();
     return (
-        <nav className="flex justify-around gap-4 text-center">
-            <Link href="/" className={`border-2 p-2 px-2 rounded-lg hover:shadow ${pathname === '/' ? 'activelink' : ''}`}>
+        <nav className="flex justify-left gap-10 text-center">
+            <Link href="/" className={`border-2 p-2 px-2 w-40 rounded-lg hover:shadow-lg ${pathname === '/' ? 'activelink' : ''}`}>
                 <h3 className="text-base font-bold">Обо мне</h3>
             </Link>
-            <Link href="/projects" className={`border-2 p-2 px-2 rounded-lg hover:shadow ${pathname === '/projects' ? 'activelink' : ''}`}>
+            <Link href="/projects" className={`border-2 p-2 px-2 w-40 rounded-lg hover:shadow-lg ${pathname === '/projects' ? 'activelink' : ''}`}>
                 <h3 className="text-md font-bold">Мои работы</h3>
             </Link>
             {/* <Link href="/social" className={`border-2 p-2 px-2 rounded-lg hover:shadow ${pathname === '/social' ? 'activelink' : ''}`}>

@@ -21,8 +21,7 @@ export default function Contacts() {
                 <p className="text-gray-700">Frontend Developer</p>
                 <div className="mt-6 flex flex-wrap gap-4 justify-center">
                     <button onClick={() => setContacts(!contacts)} className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded">{`${contacts ? 'Контакты' : 'Мой стек'}`}</button>
-                    <a href="https://nn.hh.ru/resume/dc946dc4ff0c6d81860039ed1f71706350634e" target='_blanck' className="bg-gray-300 hover:bg-gray-400 text-gray-700 py-2 px-4 rounded">Моё Резюме</a>
-                {/* <div><ResumePopup/></div> */}
+                <div><ResumePopup/></div>
                 <div><DialogDemo/></div>
                 </div>
             </div>

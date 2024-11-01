@@ -99,7 +99,7 @@ export function DialogDemo() {
           </div>
         </div>
         <DialogFooter className="sm:justify-center">
-          <Button type="submit" >Отправить контакты</Button>
+          <Button type="submit" className='bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded'>Отправить контакты</Button>
         </DialogFooter>
         </form>
       </DialogContent>

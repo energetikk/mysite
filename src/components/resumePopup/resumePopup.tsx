@@ -13,9 +13,14 @@ import { Button } from "@/components/ui/button"
 
 export function ResumePopup() {
 
+    const openLinkInNewTab = () => {
+        const url = 'https://nn.hh.ru/resume/dc946dc4ff0c6d81860039ed1f71706350634e'; // Замените ссылку на вашу внешнюю ссылку
+        window.open(url, '_blank');
+    };
+
     return (
         <AlertDialog>
-            <AlertDialogTrigger>Моё резюме</AlertDialogTrigger>
+            <AlertDialogTrigger className="bg-gray-300 hover:bg-gray-400 text-gray-700 py-2 px-4 rounded">Моё резюме</AlertDialogTrigger>
             <AlertDialogContent>
                 <AlertDialogHeader>
                     <AlertDialogTitle>Вы хотите перейти на сайт HeadHunter?</AlertDialogTitle>
@@ -25,16 +30,11 @@ export function ResumePopup() {
                 </AlertDialogHeader>
                 <AlertDialogFooter>
                     <AlertDialogCancel>Отмена</AlertDialogCancel>
-                    <AlertDialogAction className="bg-transparent hover:bg-transparent">
-                        <Button><a href="https://nn.hh.ru/resume/dc946dc4ff0c6d81860039ed1f71706350634e" target='_blanck' className="bg-gray-300 hover:bg-gray-400 text-gray-700 py-2 px-4 rounded">Моё Резюме</a>
-                        </Button>
+                    <AlertDialogAction onClick={openLinkInNewTab} className="bg-blue-500 hover:bg-blue-700">
+                        Перейти
                     </AlertDialogAction>
                 </AlertDialogFooter>
             </AlertDialogContent>
         </AlertDialog>
     )
 }
-
-
-
-{/* <a href="https://nn.hh.ru/resume/dc946dc4ff0c6d81860039ed1f71706350634e" target='_blanck' className="bg-gray-300 hover:bg-gray-400 text-gray-700 py-2 px-4 rounded">Моё Резюме</a> */}
