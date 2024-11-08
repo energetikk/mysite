@@ -14,7 +14,7 @@ import { Button } from "@/components/ui/button"
 export function ResumePopup() {
 
     const openLinkInNewTab = () => {
-        const url = 'https://nn.hh.ru/resume/dc946dc4ff0c6d81860039ed1f71706350634e'; // Замените ссылку на вашу внешнюю ссылку
+        const url = 'https://nn.hh.ru/resume/c52ef80cff0dfa28020039ed1f675a564e6769'; // Замените ссылку на вашу внешнюю ссылку
         window.open(url, '_blank');
     };
 
