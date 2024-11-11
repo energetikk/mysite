@@ -1,24 +1,47 @@
+# services:
+#   app-mysite:
+#     build: .
+#     container_name: app-mysite
+#     environment:
+#       - NODE_ENV=production
+
+#   nginx:
+#     image: nginx:alpine
+#     container_name: nginx
+#     ports:
+#       - "80:80"
+#       - "443:443"
+#     depends_on:
+#       - app-mysite
+#     volumes:
+#       - ./nginx.conf:/etc/nginx/conf.d/default.conf
+#       - ./.next:/usr/share/nginx/html
+#     env_file:
+#       - .env.local
+#     logging:
+#       options:
+#         max-size: "10m"
+#         max-file: "3"
+
+
+
 services:
-  app:
+  nextjs:
     build: .
-    container_name: app
+    container_name: nextjs
+    env_file:
+      - .env.local
     environment:
       - NODE_ENV=production
-
+  
   nginx:
     image: nginx:alpine
     container_name: nginx
     ports:
       - "80:80"
-      - "443:443"
-    depends_on:
-      - app
     volumes:
-      - ./nginx.conf:/etc/nginx/conf.d/default.conf
-      - ./.next:/usr/share/nginx/html
+      - ./nginx.conf:/etc/nginx/nginx.conf
+    depends_on:
+      - nextjs
     env_file:
-      - .env
-    logging:
-      options:
-        max-size: "10m"
-        max-file: "3"
+      - .env.local

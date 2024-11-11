@@ -12,11 +12,11 @@ export default function Projects() {
             <p className="mt-6 text-lg dark:text-neutral-200">Последние реализованные приложения и стек технологий:</p>
 
             <div className="mt-8 grid grid-cols-1 gap-8 sm:grid-cols-2">
-                <a href="https://www.howtolearn.paveldev.ru" target="_blank">
+                {/* <a href="https://www.howtolearn.paveldev.ru" target="_blank"> */}
                     <section
-                        className="card cursor-pointer rounded p-5 shadow-sm shadow-black/60 transition hover:-translate-y-2 hover:shadow-md hover:shadow-black/50 dark:bg-neutral-800">
+                        className="card rounded p-5 shadow-sm shadow-black/60 transition hover:-translate-y-2 hover:shadow-md hover:shadow-black/50 dark:bg-neutral-800">
                         <header className="flex items-center justify-between dark:text-gray-50">
-                            <a href="https://www.howtolearn.paveldev.ru" target="_blank" className="hover:underline">
+                            <a href="https://www.howtolearn.paveldev.ru" target="_blank" className="cursor-pointer hover:underline">
                                 <h3 className="text-lg font-bold text-blue-500 hover:text-blue-600">Научиться учиться!</h3>
                             </a>
                         </header>
@@ -30,12 +30,12 @@ export default function Projects() {
                             <span className="bg-neutral-100 px-4 py-1 text-sm dark:bg-neutral-600 dark:text-gray-50">BEM</span>
                         </footer>
                     </section>
-                </a>
+                {/* </a> */}
 
                 <section
-                    className="card cursor-pointer rounded p-5 shadow-sm shadow-black/60 transition hover:-translate-y-2 hover:shadow-md hover:shadow-black/50 dark:bg-neutral-800">
+                    className="card rounded p-5 shadow-sm shadow-black/60 transition hover:-translate-y-2 hover:shadow-md hover:shadow-black/50 dark:bg-neutral-800">
                     <header className="flex items-center justify-between dark:text-gray-50">
-                        <a href="https://www.russiantravel.paveldev.ru" target="_blank" className="hover:underline">
+                        <a href="https://www.russiantravel.paveldev.ru" target="_blank" className="cursor-pointer hover:underline">
                             <h3 className="text-lg font-bold text-blue-500 hover:text-blue-600">Путешествие по России</h3>
                         </a>
                     </header>
@@ -50,9 +50,9 @@ export default function Projects() {
                 </section>
 
                 <section
-                    className="card cursor-pointer rounded p-5 shadow-sm shadow-black/60 transition hover:-translate-y-2 hover:shadow-md hover:shadow-black/50 dark:bg-neutral-800">
+                    className="card rounded p-5 shadow-sm shadow-black/60 transition hover:-translate-y-2 hover:shadow-md hover:shadow-black/50 dark:bg-neutral-800">
                     <header className="flex items-center justify-between dark:text-gray-50">
-                        <a href="https://basefilm.vercel.app/" target="_blank" className="hover:underline">
+                        <a href="https://basefilm.vercel.app/" target="_blank" className="cursor-pointer hover:underline">
                             <h3 className="text-lg font-bold text-blue-500 hover:text-blue-600">КиноСклад</h3>
                         </a>
                     </header>
@@ -68,9 +68,9 @@ export default function Projects() {
                 </section>
 
                 <section
-                    className="card cursor-pointer rounded p-5 shadow-sm shadow-black/60 transition hover:-translate-y-2 hover:shadow-md hover:shadow-black/50 dark:bg-neutral-800">
+                    className="card rounded p-5 shadow-sm shadow-black/60 transition hover:-translate-y-2 hover:shadow-md hover:shadow-black/50 dark:bg-neutral-800">
                     <header className="flex items-center justify-between dark:text-gray-50">
-                        <a href="https://mesto.paveldev.ru" target="_blank" className="hover:underline">
+                        <a href="https://mesto.paveldev.ru" target="_blank" className="cursor-pointer hover:underline">
                             <h3 className="text-lg font-bold text-blue-500 hover:text-blue-600">Mesto</h3>
                         </a>
                     </header>
@@ -84,9 +84,9 @@ export default function Projects() {
                 </section>
 
                 <section
-                    className="card cursor-pointer rounded p-5 shadow-sm shadow-black/60 transition hover:-translate-y-2 hover:shadow-md hover:shadow-black/50 dark:bg-neutral-800">
+                    className="card rounded p-5 shadow-sm shadow-black/60 transition hover:-translate-y-2 hover:shadow-md hover:shadow-black/50 dark:bg-neutral-800">
                     <header className="flex items-center justify-between dark:text-gray-50">
-                        <a href="https://movies.paveldev.ru/" target="_blank" className="hover:underline">
+                        <a href="https://movies.paveldev.ru/" target="_blank" className="cursor-pointer hover:underline">
                             <h3 className="text-lg font-bold text-blue-500 hover:text-blue-600">Movies Explorer</h3>
                         </a>
                     </header>
